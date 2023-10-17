@@ -1,14 +1,18 @@
-/* styles.css */
 .navbar {
     background-color: lightblue;
-    background-image: url("https://media.istockphoto.com/id/531109151/photo/blue-wall-background.jpg?s=1024x1024&w=is&k=20&c=GChgiENY6rshLzeXUa2PGGpZMejADSxGsSZVMg8Nigg=");
+    background-image: url("https://cdn.pixabay.com/photo/2015/01/26/17/29/wall-612926_1280.jpg");
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 74px;
     width: 100vw;
     padding: 0px 32px;
-    font-family: Arial, sans-serif; /* Use your desired font-family */
+    font-family: Arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
   }
   
   .funflow{
@@ -63,16 +67,15 @@ span{
   
 .brand {
     font-weight: bold;
-    color: #7bd9f6; /* Highlight color */
+    color: #7bd9f6;
   }
   
   .navItem {
     font-weight: bold;
-    color: #333; /* Custom text color */
+    color: #333;
   }
   
   .navItem:hover {
-    color: #1E90FF; /* Highlight color on hover */
+    color: #1E90FF;
   }
-  
   

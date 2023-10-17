@@ -1,7 +1,5 @@
-/* Footer.module.css */
 .footer {
-    background-color: lightblue;
-    background-image: url("https://media.istockphoto.com/id/531109151/photo/blue-wall-background.jpg?s=1024x1024&w=is&k=20&c=GChgiENY6rshLzeXUa2PGGpZMejADSxGsSZVMg8Nigg=");
+    background-image: url("https://cdn.pixabay.com/photo/2015/01/26/17/29/wall-612926_1280.jpg");
     color: #333;
     padding: 20px 0;
     text-align: center;
@@ -31,19 +29,19 @@
   }
   
   ul li a {
-    color: #333; /* Set link color */
-    text-decoration: none; /* Remove underline from links */
-    font-weight: bold; /* Make links bold */
-    transition: color 0.3s; /* Add a smooth color transition on hover */
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
   }
   
   ul li a:hover {
-    color: #1E90FF; /* Change link color on hover, use your preferred color */
+    color: #1E90FF;
   }
   
   .copyright {
     font-size: 14px;
   }
   .heading{
-    color: #fff;
+    color: grey;
   }

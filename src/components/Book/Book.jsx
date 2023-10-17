@@ -1,4 +1,3 @@
-// Book.js
 import React from 'react';
 import styles from './Book.module.css';
 import BgImg from '../../assets/ticket.jpg';

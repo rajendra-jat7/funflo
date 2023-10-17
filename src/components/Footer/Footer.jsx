@@ -1,4 +1,3 @@
-// Footer.js
 import React from 'react';
 import styles from './Footer.module.css';
 
@@ -38,6 +37,16 @@ const Footer = () => {
             <li>
               <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-twitter"></i> Twitter
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-instagram"></i> Instagram
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-linkedin"></i> Linkedin
               </a>
             </li>
           </ul>
