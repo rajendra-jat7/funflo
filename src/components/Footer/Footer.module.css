@@ -1,0 +1,49 @@
+/* Footer.module.css */
+.footer {
+    background-color: lightblue;
+    background-image: url("https://media.istockphoto.com/id/531109151/photo/blue-wall-background.jpg?s=1024x1024&w=is&k=20&c=GChgiENY6rshLzeXUa2PGGpZMejADSxGsSZVMg8Nigg=");
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .quickLinks, .contactInfo {
+    text-align: left;
+  }
+  
+  .contactInfo p {
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  ul li a {
+    color: #333; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+  }
+  
+  ul li a:hover {
+    color: #1E90FF; /* Change link color on hover, use your preferred color */
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  .heading{
+    color: #fff;
+  }

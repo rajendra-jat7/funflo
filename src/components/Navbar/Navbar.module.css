@@ -1,0 +1,78 @@
+/* styles.css */
+.navbar {
+    background-color: lightblue;
+    background-image: url("https://media.istockphoto.com/id/531109151/photo/blue-wall-background.jpg?s=1024x1024&w=is&k=20&c=GChgiENY6rshLzeXUa2PGGpZMejADSxGsSZVMg8Nigg=");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 74px;
+    width: 100vw;
+    padding: 0px 32px;
+    font-family: Arial, sans-serif; /* Use your desired font-family */
+  }
+  
+  .funflow{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.funflow::before{
+    content: "";
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background: conic-gradient(transparent, transparent, transparent, lightblue);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.image{
+    position: absolute;;
+    inset: 5px;
+    background-color: dark;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7bd9f6;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: dark;
+    padding: 0 16px;
+}
+span{
+    text-align: left;
+}
+  
+.brand {
+    font-weight: bold;
+    color: #7bd9f6; /* Highlight color */
+  }
+  
+  .navItem {
+    font-weight: bold;
+    color: #333; /* Custom text color */
+  }
+  
+  .navItem:hover {
+    color: #1E90FF; /* Highlight color on hover */
+  }
+  
+  

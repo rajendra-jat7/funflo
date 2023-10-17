@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+}
+
+.hero {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-bottom: 30px;
+}
+
+.centeredText {
+  text-align: center;
+}
