@@ -1,47 +1,40 @@
 .footer {
-    background-image: url("https://cdn.pixabay.com/photo/2015/01/26/17/29/wall-612926_1280.jpg");
-    color: #333;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
+  background-image: url("https://cdn.pixabay.com/photo/2015/01/26/17/29/wall-612926_1280.jpg");
+  color: #000;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.footerSection {
+  flex: 1;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+p, ul, li, a {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
   .footerContent {
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
   }
   
-  .quickLinks, .contactInfo {
-    text-align: left;
+  .footerSection {
+    flex: auto;
+    margin: 1rem 0;
   }
-  
-  .contactInfo p {
-    margin: 0;
-    margin-top: 10px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin: 10px 0;
-  }
-  
-  ul li a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  ul li a:hover {
-    color: #1E90FF;
-  }
-  
-  .copyright {
-    font-size: 14px;
-  }
-  .heading{
-    color: grey;
-  }
+}

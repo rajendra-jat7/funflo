@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Book.module.css';
-import BgImg from '../../assets/ticket.jpg';
+//import BgImg from '../../assets/ticket.jpg';
 
 const Book = () => {
   return (
-    <section className={styles.bookSection} style={{ backgroundImage: `url(${BgImg})` }}>
+    <section className={styles.bookSection} style={{ backgroundImage: `url(https://cdn.pixabay.com/photo/2016/12/08/18/25/christmas-1892711_1280.jpg)` }}>
       <div className={styles.bookContent}>
         <h2 className={styles.heading}>Book Your Christmas Cruise</h2>
         <p className={styles.description}>Get in the holiday spirit with our special Christmas event!</p>

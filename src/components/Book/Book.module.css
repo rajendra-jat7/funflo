@@ -1,41 +1,56 @@
 .bookSection {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.bookContent {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.discount {
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.dateAndTime {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.bookButton {
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
   .bookContent {
-    text-align: center;
-    color: yellow;
+    padding: 0.5rem;
   }
-  
-  .heading {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  .description {
-    font-size: 24px;
-    margin: 10px 0;
-  }
-  
-  .discount {
-    color: red;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  .dateAndTime {
-    font-size: 18px;
-    margin: 10px 0;
-  }
-  
-  .bookButton {
-    font-size: 20px;
-  }
-  
+}
